@@ -3,7 +3,7 @@ CREATE TABLE IF NOT EXISTS `Auth`
 (
     `id` INT AUTO_INCREMENT PRIMARY KEY,
     `login` VARCHAR(255) NOT NULL,
-    `ip` CHAR(15), /*and int(4) UNSIGNET NOT NULL*/
+    `ip` CHAR(15), /*or int(4) UNSIGNET NOT NULL*/
     `event_type` VARCHAR(16),
     `event_time` TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
